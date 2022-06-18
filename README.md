@@ -11,3 +11,4 @@ docker-compose up
 while unittest
 
 docker-compose run --rm example py.test fastapiredis/tests.py --cov=fastapiredis
+
